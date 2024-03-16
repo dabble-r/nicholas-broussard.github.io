@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sheba's Amazing Website</title>
+        <style>
+            body {
+                background: rgb(198, 242, 247);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+        
+            /* navigation menu */
+            nav {
+                background: rgb(241, 238, 226);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            nav h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(11, 11, 11);
+                flex: 1;
+                margin: 0;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #111010;
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(244, 213, 213);
+                display: flex;
+            }
+            
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+                border-style: solid;
+                border-width: 2px;
+                color:black;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-contents"> 
+            <nav>
+                <h1>By NBroussard</h1>
+                <ul>
+                    <li>
+                        <a href="index.html"> Home</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html"> Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <main>
+                <div class="sidebar">
+                     <img src="https://avatars3.githubusercontent.com/u/153970887">
+                </div>
+            
+                <div class="content">
+                  <h2>Nicholas Joseph Broussard</h2>
+                  <p>Current role: Dual Lanaguage Dyslexia Specialist</p>
+                    <div class="interests">
+                        <h3>Interests</h3>
+                        <ul>
+                            <li>Ceramics</li>
+                            <li>Playing music</li>
+                            <li>Playing chess</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
